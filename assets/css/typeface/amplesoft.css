@@ -1,0 +1,113 @@
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: bold;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 900;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 800;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 700;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Bold.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 600;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 500;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Medium.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 400;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Regular.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Regular.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Regular.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 300;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 200;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "AmpleSoft";
+  font-weight: 100;
+  src: local("AmpleSoft"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.eot")
+      format("embedded-opentype"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.svg") format("svg"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.ttf") format("truetype"),
+    url("../../typeface/amplesoft/AmpleSoft-Light.woff") format("woff");
+}
+.amplesoft {
+  font-family: "AmpleSoft", Arial, Helvetica, sans-serif !important;
+}
