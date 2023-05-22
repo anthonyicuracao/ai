@@ -16,7 +16,7 @@
   --ai-link-hover: darkblue;
 
   --ai-border: #ececf1;
-  --ai-gradient-1: #92c039;
+  --ai-gradient-1: #000;
   --ai-gradient-2: black;
   --ai-shadow: rgba(127, 137, 161, 0.25);
 }
@@ -362,6 +362,10 @@ h6 {
   overflow: hidden;
   position: relative;
   background: linear-gradient(0deg, var(--ai-gradient-1) 0%, var(--ai-gradient-2) 100%);
+  background-image: url("../img/background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 0;
 }
 
