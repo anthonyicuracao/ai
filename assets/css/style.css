@@ -6,7 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 :root {
-  --ai-primary: #92c039;
+  --ai-primary: #f26722;
   --ai-primary-hover: #fc8129;
   --ai-color: #444;
   --ai-white: #fff;
@@ -362,7 +362,8 @@ h6 {
   overflow: hidden;
   position: relative;
   background: linear-gradient(0deg, var(--ai-gradient-1) 0%, var(--ai-gradient-2) 100%);
-  background-image: url("../img/background.gif");
+  /* background-image: url("../img/background.gif"); */
+  background-image: url("../img/background-2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -770,10 +771,25 @@ section {
   top: calc(50% - 30px);
 }
 
-.resources .icon i {
+.resources .icon i  {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
+}
+
+.resources img {
+  height: 75px;
+  left: 0%;
+  position: absolute;
+  top: calc(50%);
+  transform: translate(-35%, -50%);
+  transition: 0.5s;
+}
+
+.resources .icon-box:hover img {
+  transform: translate(25%, -50%);
+  height: 50px;
+
 }
 
 .resources .title {
