@@ -6,8 +6,8 @@
 * License: https://bootstrapmade.com/license/
 */
 :root {
-  --ai-primary: #f26722;
-  --ai-primary-hover: #fc8129;
+  --ai-primary: #92c039;
+  --ai-primary-hover: #92c039;
   --ai-color: #444;
   --ai-white: #fff;
   --ai-header: rgba(0, 0, 0, 0.5);
@@ -652,6 +652,19 @@ section {
     padding: 0;
     line-height: 1;
     font-size: 36px;
+  }
+}
+
+.winner {
+  height: 48px;
+  line-height: 1;
+  padding: 0;
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .features .nav-link {
+    justify-content: space-around;
   }
 }
 
