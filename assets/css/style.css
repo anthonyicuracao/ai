@@ -1624,3 +1624,28 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.readMoreBtn {
+  background: transparent;
+  color: var(--ai-link);
+  border: none;
+  outline: none;
+  padding: 0;
+}
+.readMoreLess.readMore {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+.readMoreLess + .readMoreBtn::before {
+  content: "Read Less"
+}
+.readMoreLess.readMore + .readMoreBtn::before {
+  content: "Read More"
+}
+.readMoreLess,
+.readMoreLess:last-child,
+.readMoreLess > p:last-of-type {
+  margin-bottom: 0;
+}

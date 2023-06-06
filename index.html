@@ -10,18 +10,15 @@
   <meta content="Curacao" name="keywords">
   <link href="/ai/assets/img/logo.svg" rel="icon">
   <link href="/ai/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
   <link href="/ai/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="/ai/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="/ai/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="/ai/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="/ai/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="/ai/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="/ai/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="/ai/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="/ai/assets/css/style.css" rel="stylesheet">
+  <!-- <link href="/ai/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+  <!-- <link href="/ai/assets/vendor/remixicon/remixicon.css" rel="stylesheet"> -->
+  <!-- <link href="/ai/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+  <link href="/ai/assets/css/style.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/ai/assets/css/typeface/amplesoft.css" />
   <link rel="stylesheet" href="/ai/assets/css/typeface/gotham.css" />
   <title>Curacao | AI</title>
@@ -105,44 +102,24 @@
               our
               talented participants.
             </p>
-            <a class="nav-link scrollto btn-learn-more" href="#features">Continue</a>
+            <!-- <a class="nav-link scrollto btn-learn-more" href="#features">Continue</a> -->
           </div>
         </div>
       </div>
     </section>
     <section id="features" class="features">
-        
       <div class="container">
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-6 col-lg-3 mb-4 mb-lg-0" data-aos="zoom-in">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <h4><small>Winner 1<small>st</small> Place<br /></small>Adeh Mirzakhanian</h4>
-            </a>
-          </li>
-          <li class="nav-item col-6 col-lg-3 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-              <h4><small>Winner 2<small>nd</small> Place<br /></small>Yifan Yang</h4>
-            </a>
-          </li>
-          <li class="nav-item col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-              <h4><small>Winner 3<small>rd</small> Place<br /></small>Edith Karina Cruz</h4>
-            </a>
-          </li>
-          <li class="nav-item col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-              <h4><small>Winner People's Choice<br /></small>Teylez Perez</h4>
-            </a>
-          </li>
-        </ul>
-        <div class="tab-content" data-aos="fade-up">
-          <div class="tab-pane active show" id="tab-1">
-            <div class="row">
+       <div class="container mt-3">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>AI Contest</h2>
+          <p>Meet the AI Contest Winners!</p>
+        </div>
+          <div class="row">
               <div class="col order-2 order-lg-1 mt-3 mt-lg-0">
                 <h4 class="mb-0"><small>Winner 1<small>st</small> Place</small></h4>
                 <h3>Adeh Mirzakhanian</h3>
                 <p class="fst-italic">Call Center Recordings AI Processor</p>
-                <p>
+                <p id="mirzakhanian" class="readMoreLess readMore">
                   A system that utilizes the OpenAI Wisper library to automate the transcription of call recordings from
                   any language to any other language. Additionally, it incorporates an in-house AI model to remove
                   personally identifiable information (PII) from both the transcribed and original versions. The system
@@ -152,48 +129,60 @@
                   Furthermore, it offers solutions for call center data analysis, optimization, and advanced searching,
                   enabling efficient and effective management of call center operations.
                 </p>
+                <button class="readMoreBtn" onclick="toggleReadMore(event)" 
+                data-target="#mirzakhanian"></button>
+                <hr>
               </div>
             </div>
-          </div>
-          <div class="tab-pane" id="tab-2">
-            <div class="row">
+             <div class="row">
               <div class="col order-2 order-lg-1 mt-3 mt-lg-0">
                 <h4 class="mb-0"><small>Winner 2<small>nd</small> Place</small></h4>
                 <h3>Yifan Yang</h3>
                 <p class="fst-italic">Customized Chatbot</p>
-                <p>
-                  Proposed to develop a customized Chatbot specifically designed for Curacao customers by utilizing AI
-                  tools
-                  that can integrate Curacao's unique data with robust language models. This Chatbot will help in
-                  various
-                  areas such as credit applications, customer service, website navigation, and product selection.
-                  Moreover,
-                  it can be further tailored with additional data to support Curacao employees in tasks like customer
-                  service, collection, training, and other relevant areas.
-                </p>
+                <div  id="yang" class="readMoreLess readMore">
+                  <p>
+                    Proposed to develop a customized Chatbot specifically designed for Curacao customers by utilizing AI
+                    tools
+                    that can integrate Curacao's unique data with robust language models. This Chatbot will help in
+                    various
+                    areas such as credit applications, customer service, website navigation, and product selection.
+                    
+                  </p>
+                  <p>
+                    Moreover,
+                    it can be further tailored with additional data to support Curacao employees in tasks like customer
+                    service, collection, training, and other relevant areas.
+                  </p>
+                </div>
+                <button class="readMoreBtn" onclick="toggleReadMore(event)" 
+                data-target="#yang"></button>
+                <hr>
               </div>
             </div>
-          </div>
-          <div class="tab-pane" id="tab-3">
-            <div class="row">
+             <div class="row">
               <div class="col order-2 order-lg-1 mt-3 mt-lg-0">
                 <h4 class="mb-0"><small>Winner 3<small>rd</small> Place</small></h4>
                 <h3>Edith Karina Cruz</h3>
                 <p class="fst-italic">AI-powered virtual assistant</p>
-            <p>Everyday, users encounter errors related to account information while checking out, leading to abandoned shopping carts. These errors require customer service intervention for resolution. However, when customer service isn't available, customers tend to delay or abandon purchases. This situation impacts key service level KPIs. </p>
+                <div id="cruz" class="readMoreLess readMore">
+                  
+            <These>Everyday, users encounter errors related to account information while checking out, leading to abandoned shopping carts. These errors require customer service intervention for resolution. However, when customer service isn't available, customers tend to delay or abandon purchases. This situation impacts key service level KPIs. </p>
             <p>Most customers, upon encountering an error, abandon their cart if they can't resolve the issue independently. Analysis of user behavior shows that customers prefer to edit personal information on their own but end up abandoning the cart if the error persists. </p>
             <p>To address this, we propose leveraging ChatGPT, an AI-powered virtual assistant, to guide customers in updating their information when errors occur. This approach reduces the need for direct customer service calls and can resolve issues promptly, available 24/7. This method could potentially increase sales, continuously update the customer database, and ensure security with encryption and authentication techniques for data protection. ChatGPT can help tackle a problem affecting 17% of customers, providing swift solutions and freeing customer service to focus on more complex issues. </p>
+                </div>
+            <button class="readMoreBtn" onclick="toggleReadMore(event)" 
+            data-target="#cruz"></button>
+            <hr>
 </div>
             </div>
-          </div>
-          <div class="tab-pane" id="tab-4">
-            <div class="row">
+              <div class="row">
               <div class="col order-2 order-lg-1 mt-3 mt-lg-0">
                 <h4 class="mb-0"><small>People's Choice Award</small></h4>
                 <h3>Teylez Perez</h3>
                 <p class="fst-italic">
                   AI Powered Chat Bot
                 </p>
+               <div id="perez" class="readMoreLess readMore">
                 <p>
                   QUIBO is an AI-powered chatbot app that interacts with retail managers to provide them with insights
                   on
@@ -207,18 +196,22 @@
                   conversion
                   rate, margin, and average ticket.
                 </p>
+               </div>
+               <button class="readMoreBtn" onclick="toggleReadMore(event)" 
+               data-target="#perez"></button>
+                <hr>
               </div>
             </div>
-          </div>
-         
-        </div>
-       
-      </div>
-      <div class="container mt-3">
-        <p>
+               <div class="row ">
+      <div class="col">
+          <p>
           We are excited to explore how these winning ideas can be further developed and implemented in our operations. Stay tuned as we embark on an exciting journey to bring these ideas to life and witness the positive impact they will have on Curacao's future. 
         </p>
       </div>
+      </div>
+       </div>
+      </div>
+   
     </section>
   
     <section id="resources" class="resources">
@@ -508,10 +501,9 @@
         </a>
       </h3>
       <div class="social-links">
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-youtube"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/CuracaoUSA/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/icuracao_usa/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/icuracao" class="twitter"><i class="bx bxl-twitter"></i></a>
       </div>
       <div class="copyright small">
         &copy; Copyright <strong>Curacao</strong>. All Rights Reserved
@@ -528,6 +520,21 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    function toggleReadMore(event) {
+  var target = event.target;
+  var dataTarget = target.getAttribute("data-target");
+  
+  if (dataTarget) {
+    var element = document.querySelector(dataTarget);
+    
+    if (element) {
+      element.classList.toggle("readMore");
+    }
+  }
+}
+  </script>
+
 </body>
 
 </html>
